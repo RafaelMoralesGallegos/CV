@@ -211,7 +211,7 @@ html {
 }
 
 body {
-  background: _palette();
+  background: _palette(bg);
 
   // Stops initial animations until page loads.
   &.is-preload {
